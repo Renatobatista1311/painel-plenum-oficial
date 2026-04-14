@@ -33,7 +33,7 @@ def formata_tempo(segundos):
     return f"{h:02d}:{m:02d}:{s:02d}"
 
 # --- MENU LATERAL (NAVEGAÇÃO DE PÁGINAS) ---
-st.sidebar.image("https://plenumsistemas.com.br/wp-content/uploads/2021/08/cropped-logo_plenum_laranja-3-1.png", width=200)
+st.sidebar.image("logo.png", width=200)
 st.sidebar.title("Navegação")
 pagina_selecionada = st.sidebar.radio(
     "Escolha o Setor:",
