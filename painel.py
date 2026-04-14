@@ -23,7 +23,7 @@ COLABORADORES_INTERNOS = [
 ]
 
 # --- TRAVA DE SEGURANÇA (NUVEM VS LOCAL) ---
-    TOKEN_MOVIDESK = st.secrets["TOKEN_MOVIDESK"]
+TOKEN_MOVIDESK = st.secrets["TOKEN_MOVIDESK"]
 
 # --- MOTOR DE TEMPO (Formato Cronômetro HH:MM:SS) ---
 def formata_tempo(segundos):
