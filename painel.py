@@ -23,10 +23,7 @@ COLABORADORES_INTERNOS = [
 ]
 
 # --- TRAVA DE SEGURANÇA (NUVEM VS LOCAL) ---
-try:
     TOKEN_MOVIDESK = st.secrets["TOKEN_MOVIDESK"]
-except Exception:
-    TOKEN_MOVIDESK = "a5c4ccc2-ac85-44fd-9e86-2c25511556bc"
 
 # --- MOTOR DE TEMPO (Formato Cronômetro HH:MM:SS) ---
 def formata_tempo(segundos):
